@@ -1,6 +1,5 @@
 # Synaptex
 
-![Demo](screenshots/demo.gif)
 
 **Synaptex** is a full-stack skill exchange platform that enables people to **teach what they know and learn what they want** by connecting users with complementary skills.
 
@@ -37,19 +36,13 @@ https://synaptexf.onrender.com
 Users interact through a structured request lifecycle:
 # Synaptex
 
-![Demo](screenshots/demo.gif)
+!(screenshots/demo.gif)
 
 **Synaptex** is a full-stack skill exchange platform that enables people to **teach what they know and learn what they want** by connecting users with complementary skills.
 
 Users can list skills they offer, add skills they want to learn, discover potential teachers, send requests, chat after acceptance, and rate each other once the exchange is completed.
 
 The platform demonstrates a complete **end-to-end full-stack system including authentication, API design, relational data modeling, and production deployment.**
-
----
-
-# Live Application
-
-https://synaptexf.onrender.com
 
 ---
 
