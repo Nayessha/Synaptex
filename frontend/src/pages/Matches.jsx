@@ -11,10 +11,9 @@ function Matches() {
       .catch(err => console.log(err));
   }, []);
 
-  const sendRequest = async (receiverId, skillTitle) => {
+  const sendRequest = async (skillId) => {
     try {
       await api.post("/requests/send", {
-        receiverId,
         skillId
       });
 
@@ -43,12 +42,12 @@ function Matches() {
                 key={index}
                 className="bg-white p-4 rounded shadow hover:-translate-y-1 transition"
               >
-                <p><strong>User:</strong> {match.user?.name}</p>
+                
                 <p><strong>Skill:</strong> {match.skill?.id}</p>
 
                 <button
                   onClick={() =>
-                    sendRequest(match.user.id, match.skill.id)
+                    sendRequest(match.skill.id)
                   }
                   className="mt-3 bg-indigo-600 text-white px-4 py-2 rounded-lg hover:scale-105 transition"
                 >
